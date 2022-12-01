@@ -15,5 +15,8 @@ int main(void)
 		printf("\nIntroduzca el coeficiente del polinomio x^^%i\n", i);
 		scanf_s("%f", &polinomio[i]);
 	}
+	
+	printf("\nDigite el valor de X en el que quiere valuar la funcion: ");
+	scanf_s("%f", &valorX);
 
 	
