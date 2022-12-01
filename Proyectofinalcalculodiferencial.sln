@@ -9,5 +9,11 @@ int main(void)
 
 	printf("Ingresa el numero de coeficcientes: \a");
 	scanf_s("%i", &n);
+	
+	for (i = 0; i < n; i++)
+	{
+		printf("\nIntroduzca el coeficiente del polinomio x^^%i\n", i);
+		scanf_s("%f", &polinomio[i]);
+	}
 
 	
