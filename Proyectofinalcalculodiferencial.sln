@@ -1,1 +1,13 @@
+#include <stdio.h>
+#include <math.h>
 
+int main(void)
+{
+	int i, n;
+	float polinomio[10], valorX;
+	double resultado = 0;
+
+	printf("Ingresa el numero de coeficcientes: \a");
+	scanf_s("%i", &n);
+
+	
