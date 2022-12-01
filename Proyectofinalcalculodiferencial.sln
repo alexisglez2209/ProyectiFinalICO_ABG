@@ -24,3 +24,8 @@ int main(void)
 		resultado = resultado + (pow(valorX, 1) * polinomio[i]);
 	}
 	
+	printf("\nEl resultado es: %.2lf\n\n");
+
+	return 0;
+}
+	
