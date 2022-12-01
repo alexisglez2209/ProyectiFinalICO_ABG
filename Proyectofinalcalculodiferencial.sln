@@ -18,5 +18,6 @@ int main(void)
 	
 	printf("\nDigite el valor de X en el que quiere valuar la funcion: ");
 	scanf_s("%f", &valorX);
-
+	
+	for (i = 0; i < n; i++)
 	
